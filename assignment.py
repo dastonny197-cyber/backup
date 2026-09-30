@@ -5,8 +5,9 @@ print(len(drinks))
 
 # 1. What does each print statement display? Explain why drinks[1] selects that drink.
 # Your answer:
-print(chosen_drink) displays coffee, because python is a zero-based language.
-print(len(drinks)) displays 3.
+# print(chosen_drink) displays coffee, because python is a zero-indexing based language.
+# print(len(drinks)) displays 3.
 # 2. What are the Python types of drinks and chosen_drink?
 # Your answer:
-drinks is a list. chosen_drink is a string variable.
+# drinks is a list, because it uses square brackets and uses comma to separate the values. 
+# chosen_drink is a string variable because that refers to the second element of the drinks list, which is a string variable.
